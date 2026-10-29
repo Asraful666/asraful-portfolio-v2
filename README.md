@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Md Asraful Islam — Personal Portfolio
 
-## Getting Started
+A responsive personal portfolio showcasing my skills, education,
+and web development projects.
 
-First, run the development server:
+## Live Website
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+https://asraful-portfolio-v2.vercel.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js App Router
+- React
+- TypeScript
+- Tailwind CSS
+- CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features
 
-## Learn More
+- Responsive navigation with a mobile menu
+- Professional introduction and profile photo
+- Downloadable resume
+- About section with programming journey and interests
+- Skills grouped by category with technology icons
+- University education and professional diploma information
+- Three featured projects with screenshots
+- Individual project details pages
+- Project technology stacks, live links, and client repositories
+- Development challenges and future improvement plans
+- Email, phone, and social profile links
+- Light and dark theme toggle with saved preference
 
-To learn more about Next.js, take a look at the following resources:
+## Featured Projects
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### BazarDor
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+A Bengali market-price application for viewing essential-product
+prices, price changes, and market comparisons.
 
-## Deploy on Vercel
+- Live: https://bazar-dor-7c27.vercel.app/
+- GitHub: https://github.com/Asraful666/bazar-dor-v2
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Dev Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+A technology explorer that helps developers browse technologies
+and build a personal development stack.
+
+- Live: https://celadon-treacle-de6632.netlify.app/
+- GitHub: https://github.com/Asraful666/B14_A5_dev_stack
+
+### FitLog
+
+A workout library for exploring exercises, saving workouts,
+and managing a personal workout plan.
+
+- Live: https://a6-fit-log-amber.vercel.app/
+- GitHub: https://github.com/Asraful666/a6-fit-log
+
+## Run Locally
+
+Clone the repository:
+
+    git clone https://github.com/Asraful666/asraful-portfolio-v2.git
+
+Open the project directory:
+
+    cd asraful-portfolio-v2
+
+Install dependencies:
+
+    npm install
+
+Start the development server:
+
+    npm run dev
+
+Open http://localhost:3000 in your browser.
+
+## Production
+
+Create a production build:
+
+    npm run build
+
+Start the production server:
+
+    npm start
+
+## Author
+
+**Md Asraful Islam**
+
+- CSE Student, Sylhet International University
+- GitHub: https://github.com/Asraful666
+- Email: 6mdasrafulislam@gmail.com
