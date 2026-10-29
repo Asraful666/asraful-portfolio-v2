@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const links = [
   { label: "Home", href: "/#home" },
@@ -26,15 +27,19 @@ export default function Navbar() {
           Asraful<span>.</span>
         </Link>
 
-        <button
-          type="button"
-          className="menu-button"
-          aria-expanded={isOpen}
-          aria-controls="navigation-links"
-          onClick={() => setIsOpen(!isOpen)}
-        >
-          {isOpen ? "Close ✕" : "Menu ☰"}
-        </button>
+        <div className="nav-actions">
+  <ThemeToggle />
+
+  <button
+    type="button"
+    className="menu-button"
+    aria-expanded={isOpen}
+    aria-controls="navigation-links"
+    onClick={() => setIsOpen(!isOpen)}
+  >
+    {isOpen ? "Close ✕" : "Menu ☰"}
+  </button>
+</div>
 
         <div
           id="navigation-links"

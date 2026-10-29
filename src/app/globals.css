@@ -566,3 +566,119 @@ p {
     transition: none !important;
   }
 }
+/* Theme controls */
+.nav-links {
+  order: 1;
+}
+
+.nav-actions {
+  order: 2;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.theme-toggle {
+  min-height: 40px;
+  padding: 7px 13px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.theme-toggle:disabled {
+  cursor: default;
+}
+
+:root {
+  color-scheme: light;
+}
+
+/* Dark theme */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --background: #111715;
+  --surface: #19221e;
+  --muted: #151d19;
+  --text: #edf3ee;
+  --secondary: #b1beb5;
+  --accent: #89d5ad;
+  --border: #344139;
+}
+
+:root[data-theme="dark"] .button-primary {
+  background: #89d5ad;
+  border-color: #89d5ad;
+  color: #10251a;
+}
+
+:root[data-theme="dark"] .button-primary:hover {
+  background: #ace7c7;
+}
+
+:root[data-theme="dark"] .button-outline:hover {
+  background: #263b2e;
+}
+
+:root[data-theme="dark"] .status-badge {
+  background: #263b2e;
+}
+
+:root[data-theme="dark"] .portrait-frame {
+  background: #26372c;
+  border-color: #405447;
+}
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --background: #111715;
+  --surface: #19221e;
+  --muted: #151d19;
+  --text: #edf3ee;
+  --secondary: #b1beb5;
+  --accent: #89d5ad;
+  --border: #344139;
+}
+
+html[data-theme="dark"] body {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+html[data-theme="dark"] .section-muted {
+  background-color: var(--muted);
+}
+
+html[data-theme="dark"] .site-header,
+html[data-theme="dark"] .nav-links {
+  background-color: var(--background);
+}
+
+html[data-theme="dark"] .panel,
+html[data-theme="dark"] .project-card,
+html[data-theme="dark"] .contact-links a,
+html[data-theme="dark"] .technology-tags span,
+html[data-theme="dark"] .menu-button,
+html[data-theme="dark"] .theme-toggle {
+  background-color: var(--surface);
+  color: var(--text);
+}
+
+html[data-theme="dark"] .button-primary {
+  background-color: var(--accent);
+  color: #10251a;
+}
+
+html[data-theme="dark"] .button-outline:hover,
+html[data-theme="dark"] .status-badge {
+  background-color: #263b2e;
+}
+
+html[data-theme="dark"] .portrait-frame {
+  background-color: #26372c;
+  border-color: #405447;
+}
