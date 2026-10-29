@@ -54,6 +54,15 @@ export const skillGroups = [
     ],
   },
   {
+  category: "Programming Languages",
+  skills: [
+    { name: "C", icon: "c" },
+    { name: "C++", icon: "cpp" },
+    { name: "Python", icon: "py" },
+    { name: "Java", icon: "java" },
+  ],
+},
+  {
     category: "Tools",
     skills: [
       { name: "Git", icon: "git" },
