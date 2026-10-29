@@ -28,19 +28,16 @@ export default function Home() {
 
             <div className="button-group">
               {/* Replace this link with /resume.pdf when it is ready. */}
-              <a href="#resume-status" className="button button-primary">
-                View Resume
-              </a>
+              <a href="/resume.pdf" download className="button button-primary">
+  Download Resume
+</a>
 
               <a href="#projects" className="button button-outline">
                 View Projects ↗
               </a>
             </div>
 
-            <p id="resume-status" className="resume-note">
-              My resume is currently being prepared.
-            </p>
-
+           
             <div className="social-links" aria-label="Social profiles">
               {socialLinks.map((social) => (
                 <a
